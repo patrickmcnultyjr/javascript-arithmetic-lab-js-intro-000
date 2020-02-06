@@ -1,50 +1,50 @@
-let a = Math.floor(Math.random() * 100);
-let b = Math.floor(Math.random() * 100);
+let a = Math.floor(Math.random() * 1000);
+let b = Math.floor(Math.random() * 1000);
 function add(a,b){
   return a + b;
 }
 add(a,b);
 
-let c = Math.floor(Math.random() * 100);
-let d = Math.floor(Math.random() * 100);
+let c = Math.floor(Math.random() * 1000);
+let d = Math.floor(Math.random() * 1000);
 function subtract(c,d){
   return c - d;
 }
 subract(c,d);
 
-let e = Math.floor(Math.random() * 100);
-let f = Math.floor(Math.random() * 100);
+let e = Math.floor(Math.random() * 1000);
+let f = Math.floor(Math.random() * 1000);
 function multiply(e,f){
   return e*f;
 }
 multiply(e,f);
 
-let g = Math.floor(Math.random() * 100);
-let h = Math.floor(Math.random() * 100);
+let g = Math.floor(Math.random() * 1000);
+let h = Math.floor(Math.random() * 1000);
 function divide(g,h){
   return g/h;
 }
 divide(g,h);
 
-let i = Math.floor(Math.random() * 100);
+let i = Math.floor(Math.random() * 1000);
 function increment(i){
   return i + 1;
 }
 inc(i);
 
-let j = Math.floor(Math.random() * 100);
+let j = Math.floor(Math.random() * 1000);
 function decrement(j){
   return j - 1;
 }
 dec(j);
 
-let k = Math.floor(Math.random() * 100);
+let k = Math.floor(Math.random() * 1000);
 function makeInt(k){
   return parseInt(k,10);
 }
 makeInt(k);
 
-let l = Math.floor(Math.random() * 100);
+let l = Math.floor(Math.random() * 1000);
 function preserveDecimal(l){
   return parseFloat(l, 10);
 }
