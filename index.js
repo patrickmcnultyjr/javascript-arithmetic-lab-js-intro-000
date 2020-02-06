@@ -28,13 +28,13 @@ divide(g,h);
 
 let i = Math.floor(Math.random() * 100);
 function inc(i){
-  return i++;
+  return i+1;
 }
 inc(i);
 
 let j = Math.floor(Math.random() * 100);
 function dec(j){
-  return j--;
+  return j-1;
 }
 dec(j);
 
