@@ -14,10 +14,10 @@ function divide(){
 }
 var number = 10
 
-function increment(){
+function increment(n){
   return (number++);
 }
 
-function decrement(){
+function decrement(n){
   return (number--);
 }
