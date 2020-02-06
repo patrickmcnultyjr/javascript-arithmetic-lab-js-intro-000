@@ -18,6 +18,6 @@ function increment(){
   return (number++);
 }
 
-funcion decrement(){
+function decrement(){
   return (number--);
 }
