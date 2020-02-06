@@ -27,5 +27,3 @@ function decrement(){
 function makeInt(){
   parseInt('5', 10);
 }
-
-
