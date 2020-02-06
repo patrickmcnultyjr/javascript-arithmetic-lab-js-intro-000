@@ -18,3 +18,10 @@ function multiply(e,f){
   return e*f;
 }
 multiply(e,f)
+
+let g = Math.floor(Math.random() * 100)
+let h = Math.floor(Math.random() * 100)
+function divide(g,h){
+  return g/h;
+}
+divide(g,h)
