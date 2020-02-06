@@ -31,3 +31,9 @@ function inc(i){
   return i++;
 }
 inc(i)
+
+let j = Math.floor(Math.random() * 100)
+function dec(j){
+  return j--;
+}
+dec(j)
