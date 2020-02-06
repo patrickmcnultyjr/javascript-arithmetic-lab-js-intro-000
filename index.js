@@ -25,3 +25,9 @@ function divide(g,h){
   return g/h;
 }
 divide(g,h)
+
+let i = Math.floor(Math.random() * 100)
+function inc(i){
+  return i++;
+}
+inc(i)
