@@ -11,3 +11,10 @@ function subtract(c,d){
   return c - d;
 }
 subract(c,d)
+
+let e = Math.floor(Math.random() * 100)
+let f = Math.floor(Math.random() * 100)
+function multiply(e,f){
+  return e*f;
+}
+multiply(e,f)
