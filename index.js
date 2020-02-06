@@ -27,13 +27,13 @@ function divide(g,h){
 divide(g,h);
 
 let i = Math.floor(Math.random() * 100);
-function inc(i){
+function increment(i){
   return i + 1;
 }
 inc(i);
 
 let j = Math.floor(Math.random() * 100);
-function dec(j){
+function decrement(j){
   return j - 1;
 }
 dec(j);
