@@ -1,3 +1,5 @@
+var number = 10
+
 function add(){
   return(1 + 80);
 }
@@ -12,12 +14,12 @@ function multiply(){
 function divide(){
   return(5.0 / 2.5);
 }
-var number = 10
 
-function increment(n){
+
+function increment(){
   return (number++);
 }
 
-function decrement(n){
+function decrement(){
   return (number--);
 }
