@@ -1,5 +1,5 @@
 var number = 10
 
 function add(){
-  console.log (10 + 5 =)
+  console.log (number + 5);
 }
