@@ -12,3 +12,7 @@ function multiply(){
 function divide(){
   return(5.0 / 2.5);
 }
+var number = 10
+function increment(){
+  return (number++);
+}
