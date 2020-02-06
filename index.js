@@ -23,3 +23,7 @@ function increment(){
 function decrement(){
   return (number--);
 }
+
+function makeInt(){
+  parseInt('5', 10);
+}
