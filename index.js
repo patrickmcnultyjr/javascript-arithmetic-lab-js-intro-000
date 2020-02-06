@@ -25,8 +25,10 @@ function decrement(){
 }
 
 function makeInt(){
-  parseInt('5', 10);
+  number = parseInt('5', 10);
+  return number
 }
 function preserveDecimal(){
-  parseFloat(75.123);
+  number = parseFloat(75.123, 10);
+  return number;
 }
